@@ -1,4 +1,9 @@
 /**
+ * 插入新节点 + 链表反转
+ * 时间复杂度O(N)，空间复杂度O(N)
+ * Runtime: 16 ms, faster than 56.44% of C online submissions for Add Two Numbers.
+ * Memory Usage: 9.1 MB, less than 8.00% of C online submissions for Add Two Numbers.
+ *
  * Definition for singly-linked list.
  * struct ListNode {
  *     int val;
