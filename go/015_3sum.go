@@ -39,11 +39,25 @@ func threeSum(nums []int) [][]int {
     
     // 两正一负
     if len(positives) >= 2 && len(negatives) >= 1 {
-        for 
+        for i := 0; i < le(positives) - 1; i++ {
+            for j := i + 1; j < len(positives); j++ {
+                for k := 0; k < len(negatives); k++ {
+                    if positives[i] + positives[j] + negatives[k] == 0 {
+                        res = append(res, []int{positives[i], positives[j], negatives[k]})
+                    }
+                }
+            }
+        }
     }
 
     // 三零
-    if len(positives) >= 3 {
-
+    zero_times = 0
+    for _, v := range positives {
+        if v == 0 {
+            zero_times++
+        }
+        if zero_times >= 3 {
+            
+        }
     }
 }
