@@ -1,5 +1,8 @@
 /*
  * 拆成正负两个数组，两负一正 or 一负两正 or 三零 （零分到正组）
+ * 时间复杂度O(N3)，但常数系数比较小
+ * Runtime: 2472 ms, faster than 5.00% of Go online submissions for 3Sum.
+ * Memory Usage: 7.5 MB, less than 100.00% of Go online submissions for 3Sum.
  */
 
 func threeSum(nums []int) [][]int {
